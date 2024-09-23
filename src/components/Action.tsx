@@ -2,9 +2,6 @@ interface ActionProps {
     onButtonClick: () => void;
 }
 
-
-
-
 export default function Action({ onButtonClick }: ActionProps) {
     return (
         <>
